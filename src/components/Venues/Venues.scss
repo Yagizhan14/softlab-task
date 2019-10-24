@@ -1,0 +1,29 @@
+.Venues {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+  min-height: 100vh;
+  background-color: darken($color: #fff, $amount: 20);
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.welcome-screen .brand-name {
+  color: #f0134d;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.welcome-screen-p {
+  font-size: 20px;
+  font-style: italic;
+}

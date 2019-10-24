@@ -1,0 +1,130 @@
+.Leftmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  min-width: 15%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.Leftmenu .btn {
+  border: none;
+  border-radius: 0;
+  padding: 27.8px 50px;
+  margin: 0;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+.Leftmenu .btn::after {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+}
+
+.Leftmenu i {
+  width: 25px;
+  height: 10px;
+  line-height: 10px;
+  font-size: 25px;
+  margin-right: 12px;
+}
+
+#sanat-ve-eglence {
+  background-color: crimson;
+  transition: background-color 0.3s ease;
+}
+
+#sanat-ve-eglence:hover {
+  background-color: darken($color: crimson, $amount: 5);
+}
+
+#universite {
+  background-color: dodgerblue;
+  transition: background-color 0.3s ease;
+}
+
+#universite:hover {
+  background-color: darken($color: dodgerblue, $amount: 5);
+}
+
+#etkinlik {
+  background-color: darken($color: coral, $amount: 10);
+  transition: background-color 0.3s ease;
+}
+
+#etkinlik:hover {
+  background-color: darken($color: coral, $amount: 15);
+}
+
+#yemek {
+  background-color: darken($color: #d55252, $amount: 5);
+  transition: background-color 0.3s ease;
+}
+
+#yemek:hover {
+  background-color: darken($color: #d55252, $amount: 10);
+}
+
+#gece-hayati {
+  background-color: #8f4426;
+  transition: background-color 0.3s ease;
+}
+
+#gece-hayati:hover {
+  background-color: darken($color: #8f4426, $amount: 5);
+}
+
+#acik-alanlar-ve-dinlence {
+  background-color: #c400c6;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+#acik-alanlar-ve-dinlence:hover {
+  background-color: darken($color: #c400c6, $amount: 5);
+}
+
+#profesyonel-ve-diger-yerler {
+  background-color: #293462;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+#profesyonel-ve-diger-yerler:hover {
+  background-color: darken($color: #293462, $amount: 5);
+}
+
+#konut {
+  background-color: darken(#ec9b3b, 10);
+  transition: background-color 0.3s ease;
+}
+
+#konut:hover {
+  background-color: darken($color: #ec9b3b, $amount: 15);
+}
+
+#magaza-ve-hizmet {
+  background-color: #f0134d;
+  transition: background-color 0.3s ease;
+}
+
+#magaza-ve-hizmet:hover {
+  background-color: darken($color: #f0134d, $amount: 5);
+}
+
+#seyahat-ve-tasima {
+  background-color: darken(#445c3c, 10);
+  transition: background-color 0.3s ease;
+}
+
+#seyahat-ve-tasima:hover {
+  background-color: darken($color: #445c3c, $amount: 15);
+}

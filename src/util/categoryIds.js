@@ -1,0 +1,10 @@
+export const sanatEglenceCategoryId = "4d4b7104d754a06370d81259";
+export const universiteCategoryId = "4d4b7105d754a06372d81259";
+export const etkinlikCategoryId = "4d4b7105d754a06373d81259";
+export const yemekCategoryId = "4d4b7105d754a06374d81259";
+export const geceHayatiCategoryId = "4d4b7105d754a06376d81259";
+export const acikAlanlarVeDinlenceCategoryId = "4d4b7105d754a06377d81259";
+export const profesyonelVeDigerYerlerCategoryId = "4d4b7105d754a06375d81259";
+export const konutCategoryId = "4e67e38e036454776db1fb3a";
+export const magazaVeHizmetCategoryId = "4d4b7105d754a06378d81259";
+export const seyahatVeTasimaCategoryId = "4d4b7105d754a06379d81259";
