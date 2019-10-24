@@ -4,8 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Venues = ({ venues }) => {
   const { venues: venuesList, selectedCategory } = venues;
-  console.log(venuesList);
-  console.log(selectedCategory);
 
   let welcomeScreen = (
     <div className="Venues">

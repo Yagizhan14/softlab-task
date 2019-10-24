@@ -148,12 +148,6 @@ const Leftmenu = ({ setVenues, setSelectedCategory }) => {
   );
 };
 
-const mapStateToProps = state => {
-  return {
-    venues: state.venues,
-  };
-};
-
 const mapDispatchToProps = dispatch => {
   return {
     setVenues: venues => dispatch({ type: "SET_VENUES", payload: venues }),
@@ -163,6 +157,6 @@ const mapDispatchToProps = dispatch => {
 };
 
 export default connect(
-  mapStateToProps,
+  null,
   mapDispatchToProps,
 )(Leftmenu);

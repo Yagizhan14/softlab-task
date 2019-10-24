@@ -14,7 +14,6 @@ export const makeApiCall = async categoryId => {
         v: formatDate(new Date()),
       },
     });
-    console.log(response);
     return response.data.response.groups[0].items;
   } catch (err) {
     console.log(err);
